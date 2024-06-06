@@ -11,5 +11,11 @@ public class Main {
 
         double base2 = 4.0;
         System.out.println("Trapezfläche: " + Klasse_Aren.trapezoidArea(base, base2, height));
+        // Press Opt+Enter with your caret at the highlighted text to see how
+        // IntelliJ IDEA suggests fixing it.
+        double radius = 5.0;
+        System.out.println("Kreisfläche: " + FrankoKlasse.circleArea(radius));
+        System.out.println("Kreisumfang: " + FrankoKlasse.circleCircumference(radius));
+        System.out.println("Halbkreisfläche: " + FrankoKlasse.semicircleArea(radius));
     }
 }
